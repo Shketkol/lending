@@ -1,80 +1,110 @@
+
+
 /* ==========================================================================
-   Gorban's styles
+   Author's custom styles
    ========================================================================== */
 header{
-    margin-top: 10px;
+    padding: 30px 0 20px 0;
 }
-
-header img{
-    width: 150px;
-    margin-left: 49px;
-    margin-top: 12px;
+.logo img{
+    float:left;
+    margin:0;
+    padding:0;
 }
-
-.nav-pills a{
-    color:#000;
-}
-
-header ul{
-    margin: 10px auto 0;
-    width: 319px;
-}
-
-header p{
-    text-align: right;
-    font-size: 14px;
-    line-height: 1.09;
-}
-
-header p span{
-    color: #00A7ED;
+.logo p{
+    margin: 6px 0 0 17px;
+    float: left;
+    font-size: 16px;
+    color: #00a7ed;
     font-weight: bold;
-    font-size: 28px;
 }
 
-.logo span{
-    color: #000;
-    font-weight: bold;
-    font-size: 14px;
+.mynav li a{
+    color: #00a7ed;
+    font-size:16px;
+    padding: 6px 40px 0 0;
+    margin: 0;
+}
+.mynav li{
+   padding:0;
+   margin:0;
+}
+
+.mynav li a:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.mynav li:last-child{
+   border: solid 1px #00a7ed;
+   border-radius: 6%;
+   padding-right:0;
+}
+
+.mynav li:last-child a{font-size: 27px;
+text-decoration: none;
+cursor:pointer;padding: 5px 5px 2px 5px;
+}
+
+.mynav li:last-child a:hover{
+background: #00a7ed;
+color: #fff;
+border: solid 1px #00a7ed;
+border-radius: 0;
 }
 
 h1{
-    color: #00A6EC;
-    font-weight: bold;
     font-size: 27px;
     text-align: center;
+    font-weight: bold;
+    color: #333332;
 }
 
 #block-1 img{
-    margin: 0 0 0 165px;
+    margin: 0 0 0 155px;
 }
 
- p.perevagy{
-    background: #00a7ed;
-    font-size: 18px;
+h2{
+    font-size: 22px;
+    text-align: center;
+    font-weight: normal;
+    color: #333332;
+}
+
+.order{
+    margin: 20px 0 0 282px;
+}
+
+.order button{
+    background: #ef5c4c;
+    text-shadow: none;
     color: #fff;
-    text-indent: 25px;
-    margin: 1px 0 0 0;
-    padding: 10px 0;
+    font-size: 20px;
+    border: none;
 }
 
-p.sale{
-   background: #273e7a;
-   font-size: 20px;
-   color: #fff;
-   text-indent: 25px;
-   padding: 10px 0;
+.order button:hover{
+    background: #00a7ed;
+    text-shadow: none;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
 }
+
+.order button:focus{
+    background: #00a7ed;
+    text-shadow: none;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+}
+
 
 .offer{
-    padding: 20px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
-.order form{
-    background: #ef5c4c;
-    padding: 20px 0px 1px 70px;
-}
 
-.order form label{
-   color: #fff;
-}
+
+
+
